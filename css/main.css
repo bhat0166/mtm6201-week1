@@ -1,0 +1,123 @@
+.wrapper{
+    background-color: #D9D9D9;
+    width: 80%;
+    margin: auto;
+}
+/* just for practice */
+
+/* .left_box{
+    background-color: lightgray;
+    width: 15%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+} */
+
+/* .profile img{
+    margin-top: 50px;
+    border-radius: 50%;
+    height: 180px;
+    width: auto;
+}
+
+.left_box h1{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+} */
+
+.box{
+    display: flex;
+}
+
+.left_box{
+    background-color: #3C5973;
+    width: 25%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile img{
+    margin-top: 50px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.right_box{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: auto;
+    width: 85%;
+   
+    
+}
+
+.navigation nav{
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+}
+
+a {
+    color: white; /* Inherit the color from the parent element */
+    font-weight: normal; /* Set font-weight to its default value */
+    text-decoration: none;
+}
+
+.img_2{
+    width: 450px;
+    height: auto;
+    border-radius: 10%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.title{
+    margin-top: 100px;
+}
+
+.d_list{
+    background-color:#3F6CA6;
+    border: 3px solid grey ;
+}
+
+h1{
+    color:#0C1726 ;
+}
+
+h2{
+    color: #0C1726; /* add color to the h2*/
+}
+
+dt {
+    font-weight: bold; /* Make the term text bold */
+    color: #333; /* Set the text color */
+    margin-top: 10px; /* Add some space above the term */
+}
+
+dd {
+    margin-left: 0; /* Remove default left margin */
+    margin-bottom: 10px; /* Add some space below the description */
+}
+
+.instagram-link {
+    position: absolute;
+    bottom: 50px; /* Adjust this value to position the link as desired */
+    right: 280px; /* Adjust this value to position the link as desired */
+    width: 30px; /* Adjust the size of the Instagram logo as needed */
+    height: 30px; /* Adjust the size of the Instagram logo as needed */
+}
+
+.main_pic h3{
+    position: absolute;
+    bottom: 35px; 
+    right: 320px;
+}
+  
