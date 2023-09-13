@@ -49,6 +49,7 @@
     width: 200px;
     object-fit: cover;
 }
+
 .right_box{
     display: flex;
     flex-direction: row;
@@ -98,7 +99,7 @@ h2{
 
 dt {
     font-weight: bold; /* Make the term text bold */
-    color: #333; /* Set the text color */
+    color: white; /* Set the text color */
     margin-top: 10px; /* Add some space above the term */
 }
 
@@ -120,4 +121,3 @@ dd {
     bottom: 35px; 
     right: 320px;
 }
-  
